@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "networkInterfaceName": {
+            "value": "testmachine513"
+        },
+        "subnetName": {
+            "value": "SNWEUPRDRemoteDesktopServices"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/9833eb4d-5692-436d-a4a4-d77ef2e1bac4/resourceGroups/RG-WEU-PRD-HRM-NET/providers/Microsoft.Network/virtualNetworks/vnHRMWEUPRD"
+        },
+        "virtualMachineName": {
+            "value": "testmachine"
+        },
+        "virtualMachineRG": {
+            "value": "RG-WEU-PRD-HRM-RDS"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D16s_v3"
+        },
+        "adminUsername": {
+            "value": "cgk_admin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "salrshrmweuprddiag"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/9833eb4d-5692-436d-a4a4-d77ef2e1bac4/resourceGroups/RG-WEU-PRD-HRM-DATA/providers/Microsoft.Storage/storageAccounts/salrshrmweuprddiag"
+        },
+        "availabilitySetName": {
+            "value": "ashrmweuprdrds"
+        }
+    }
+}
